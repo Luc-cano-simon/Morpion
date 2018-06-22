@@ -1,6 +1,8 @@
 body
 {
-     background-color: lightblue;
+    /* background-color: lightblue;
+*/     margin: 0 ;
+     padding: 0 ;
 }
 
 h1
@@ -8,25 +10,51 @@ h1
      text-align: center;
 }
 
+#divTop
+{
+     margin :37.5px 37.5px 0px 37.5px;
+     padding: 0 ;
+}
+
+#divMiddle
+{
+     margin : 37.5px 37.5px 0px 37.5px;
+     padding: 0 ;
+}
+
+#divBottom
+{
+    margin : 37.5px 37.5px 37.5px 37.5px;
+    padding: 0 ;
+}
+
+.un
+{
+      margin-right : 30px;
+}      
+
 #Jeu
 {
+
      width: 600px;
-     height: 620px;
-     background-color: lightblue;
-     margin: auto;
-     padding: 10px;
-     
+     height: 600px;
+     position: absolute;     
 }
      
-
-
-
 #Jeu button
 {
      width: 150px;
      height: 150px;
      font-weight: bold;
-     font-size: 50px;
-     margin: 9px;
-     float: right;
+     font-size: 50px;   
+}
+
+
+
+canvas
+{
+     width: 600px ;
+     height: 600px ;
+     border :1px solid black;
+     position: absolute;
 }
