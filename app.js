@@ -21,15 +21,19 @@ var circle = 0 ;
 
 
 
-line_skewed_left();
+// line_skewed_left();
 // line_skewed_right();
-
-
+// line_vertical_left();
+// line_vertical_middle();
+// line_vertical_right();
+// line_horizontal_top();
+// line_horizontal_middle();
+// line_horizontal_bottom();
 
 function line_skewed_left()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
 context.moveTo(0, 0);
 context.lineTo(600, 300);
@@ -39,70 +43,70 @@ context.stroke();
 function line_skewed_right()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(600, 0);
-context.lineTo(0, 600);
+context.moveTo(0, 0);
+context.lineTo(1200, 600);
 context.stroke();
 }
 
 function line_vertical_left()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(112.5, 0);
-context.lineTo(112.5, 600);
+context.moveTo(55, 0);
+context.lineTo(55, 600);
 context.stroke();
 }
 
 function line_vertical_middle()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(300, 0);
-context.lineTo(300, 600);
+context.moveTo(147, 0);
+context.lineTo(147, 600);
 context.stroke();
 }
 
 function line_vertical_right()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(412.5, 0);
-context.lineTo(412.5, 600);
+context.moveTo(240, 0);
+context.lineTo(240, 600);
 context.stroke();
 }
 
 function line_horizontal_top()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(0, 112.5);
-context.lineTo(600, 112.5);
+context.moveTo(0, 28);
+context.lineTo(600, 28);
 context.stroke();
 }
 
 function line_horizontal_middle()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(0, 300);
-context.lineTo(600, 300);
+context.moveTo(0, 75);
+context.lineTo(600, 75);
 context.stroke();
 }
 
 function line_horizontal_bottom()
 {
 context.beginPath();
-context.lineWidth = '7';
+context.lineWidth = '5';
 context.lineCap = 'round';
-context.moveTo(0, 412.5);
-context.lineTo(600, 412.5);
+context.moveTo(0, 120);
+context.lineTo(600, 120);
 context.stroke();
 }
 // });
