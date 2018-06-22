@@ -1,0 +1,32 @@
+body
+{
+     background-color: lightblue;
+}
+
+h1
+{
+     text-align: center;
+}
+
+#Jeu
+{
+     width: 600px;
+     height: 620px;
+     background-color: lightblue;
+     margin: auto;
+     padding: 10px;
+     
+}
+     
+
+
+
+#Jeu button
+{
+     width: 150px;
+     height: 150px;
+     font-weight: bold;
+     font-size: 50px;
+     margin: 9px;
+     float: right;
+}
