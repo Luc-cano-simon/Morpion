@@ -22,25 +22,8 @@ var circle = 0 ;
 
 
 line_skewed_left();
+// line_skewed_right();
 
-function line_skewed_left()
-{
-	if (canvas.getContext)
-	{
-	// var context = canvas.getContext('2d');
-		context.beginPath();
-		context.lineWidth = '7';
-		context.lineCap = 'round';
-		context.moveTo(0, 0);
-		context.lineTo(600, 600);
-		context.stroke();
-	}
-
-	else
-	{
-	alert("wtf");
-	}
-};
 
 
 function line_skewed_left()
@@ -49,7 +32,7 @@ context.beginPath();
 context.lineWidth = '7';
 context.lineCap = 'round';
 context.moveTo(0, 0);
-context.lineTo(600, 600);
+context.lineTo(600, 300);
 context.stroke();
 }
 
